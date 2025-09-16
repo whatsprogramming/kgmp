@@ -1,6 +1,5 @@
 package com.nhphuong.studentservice.viewmodel.student;
 
-import com.nhphuong.studentservice.model.Student;
 import com.nhphuong.studentservice.model.enumeration.Gender;
 import com.nhphuong.studentservice.model.enumeration.StudentStatus;
 

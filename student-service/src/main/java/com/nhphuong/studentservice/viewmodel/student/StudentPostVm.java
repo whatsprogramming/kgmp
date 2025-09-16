@@ -5,9 +5,6 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.nhphuong.studentservice.model.enumeration.Gender;
 import com.nhphuong.studentservice.model.enumeration.StudentStatus;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
-
-import java.time.LocalDateTime;
 
 @JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
 @JsonSerialize

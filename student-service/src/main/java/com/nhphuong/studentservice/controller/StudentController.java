@@ -1,7 +1,6 @@
 package com.nhphuong.studentservice.controller;
 
 import com.nhphuong.commonmodule.viewmodel.ErrorVm;
-import com.nhphuong.studentservice.model.Student;
 import com.nhphuong.studentservice.service.inteface.StudentService;
 import com.nhphuong.studentservice.viewmodel.student.StudentGetDetailVm;
 import com.nhphuong.studentservice.viewmodel.student.StudentListGetVm;
@@ -15,8 +14,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @Validated
